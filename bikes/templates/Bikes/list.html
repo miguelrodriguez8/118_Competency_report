@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+
+
+<h1>Bike List</h1>
+
+{% for bike in bike_list %}
+
+    <h3><a href="{% url 'bikes:bike_detail' bike.slug %}"> {{bike}} </a></h3>
+
+{% endfor %}
+
+{% endblock %}

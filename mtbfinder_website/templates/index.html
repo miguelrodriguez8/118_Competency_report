@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<!-- Masthead-->
+<header class="masthead text-black text-center">
+  <div class="container d-flex align-items-center flex-column">
+    <!-- Masthead Heading-->
+    <h1 class="masthead-heading text-uppercase mb-0">Let us find your bike</h1>
+  </div>
+</header>
+
+
+<div class="container my-4 post-wrapper">
+  <p>SELECT YOUR BRAND:</p>
+  <!-- Search Start -->
+  <form action="Bikes" method="post">
+    <select class="form-select form-select-lg mb-5" aria-label=".form-select-lg example">
+      <option selected>Click here</option>
+      <option value="1">Specialized</option>
+      <option value="2">Trek</option>
+      <option value="3">Santa Cruz</option>
+      <option value="4">Ibis</option>
+      <option value="5">Diamondback</option>
+      <option value="6">Evil</option>
+    </select>
+    <input type="submit" value="Select">
+  </form>
+
+</div>
+
+
+
+{% endblock %}

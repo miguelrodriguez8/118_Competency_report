@@ -1,0 +1,155 @@
+#main {
+  padding-top: 74px;
+}
+
+@media (min-width: 992px) {
+  #main {
+    padding-top: 104px;
+  }
+}
+
+@font-face {
+  font-family: "MTB Finder Font";
+  src: url("fonts/jaapokkisubtract-regular.woff") format("woff"),
+    url("fonts/jaapokkisubtract-regular.woff") format("opentype");
+}
+
+.navbar-brand {
+  font-family: "MTB Finder Font";
+}
+
+.hs-bg-primary {
+  background-color: rgb(228, 72, 72);
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #f35a5a;
+  border-color: #f35a5a;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  background: none;
+  color: white;
+  border-color: #f35a5a;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active:hover {
+  background: none;
+  color: #f35a5a;
+}
+
+/* .masthead .masthead-avatar {
+    width: 170px;
+    height: 100px;
+}     */
+
+.masthead {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.masthead {
+  background-image: url("../img/mtbfinderwp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead .masthead-heading {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  font-size: 60px;
+  color: #f53434;
+
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+  }
+
+  .masthead .masthead-heading {
+    font-size: 3rem;
+    line-height: 1.5rem;
+    font-family: "MTB Finder Font";
+    src: url("fonts/jaapokkisubtract-regular.woff") format("woff"),
+      url("fonts/jaapokkisubtract-regular.woff") format("opentype");
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+.my-4 {
+  /* background-image: url("../img/yetisb100.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .my-4 {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+  }
+}
+
+.container .h2 {
+  color: #060505;
+  font-weight: none;
+  text-align: left;
+  font-family: "MTB Finder Font";
+  src: url("fonts/jaapokkisubtract-regular.woff") format("woff"),
+    url("fonts/jaapokkisubtract-regular.woff") format("opentype");
+
+}
+
+
+.my-4 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 992px) {
+  .my-4 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+.input-group {
+  padding-right: none;
+}
+
+/* <!-- About us  */
+
+.page-section {
+  background-image: url("../img/mtbtrail2.jpg");
+  
+}
+
+@media (min-width: 992px) {
+.mapouter{
+  position:relative;
+  text-align:center;
+  height:150px;
+  width:400px;
+  }
+}
+
+/* <! -- Results */
+
